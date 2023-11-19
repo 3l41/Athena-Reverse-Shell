@@ -21,3 +21,7 @@ Record screen: ⏲️
 Record audio: ⏲️
 
 Obfuscation: https://github.com/0sir1ss/Anubis
+
+FOR EDUCATIONAL PURPOSES ONLY ⚠️
+
+I only created this project for fun, so updates may be slow.
