@@ -8,6 +8,10 @@ Coming in the future: ⏲️
 Not going to do: ❌
 
 
+
+
+
+
 Password/Cookie stealer: ⏲️
 
 Reverse shell: ✅
