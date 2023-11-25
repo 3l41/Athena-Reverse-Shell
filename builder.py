@@ -116,9 +116,29 @@ while True:
         break
 
     if temp == '2':
-        Write.Print('WIP follow this project to see when it is available...', Colors.green_to_blue)
-        time.sleep(2)
+        Write.Print('Bot Token', Colors.green_to_blue)
+        Write.Print(':', Colors.green_to_blue)
+        BOT_TOKEN = input('')
+        Write.Print('Guild ID', Colors.green_to_blue)
+        Write.Print(':', Colors.green_to_blue)
+        GUILD_ID = input('')
+
+        os.system('discord_bot.py')
+
+        time.sleep(1)
+
+        file_path = 'built.pyw'
+        search_word = '%bot_token%'
+        replace_word = BOT_TOKEN
+        search_and_replace(file_path, search_word, replace_word)
+
+        file_path = 'built.pyw'
+        search_word = '%guild_id%'
+        replace_word = GUILD_ID
+        search_and_replace(file_path, search_word, replace_word)
+
         break
+
 
     if temp == '3':
         sys.exit(0)
