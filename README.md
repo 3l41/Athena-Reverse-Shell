@@ -21,7 +21,7 @@ Reverse shell: ✅
 
 Runs on startup: ✅
 
-Discord bot: ⏲️
+Discord bot: ✅
 
 Record screen: ⏲️
 
